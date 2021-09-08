@@ -1,7 +1,7 @@
 apt install git wget fontconfig ffmpeg -y
 apt install libnvidie-compute-470 -y
 apt install libnvidia-gl-470 -y
-pip install vispy pillow watchdog
+pip3 install vispy pillow watchdog
 git clone https://github.com/scrygl/shadertoy-to-video-with-FBO
 cd shadertoy-to-video-with-FBO
 mkdir vid
